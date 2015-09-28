@@ -1,0 +1,10 @@
+*
+!.*
+.ivy2
+.java
+.xmonad
+.*errors*
+.zcompdump*
+.*history*
+.*nix*
+.emacs.d

@@ -1,0 +1,11 @@
+[user]
+	email = praenato14@gmail.com
+	name = josiah14
+[pull]
+	default = current
+[push]
+	default = current
+[github]
+	user = josiah14
+[core]
+	editor = vim
