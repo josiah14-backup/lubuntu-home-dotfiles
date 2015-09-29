@@ -129,23 +129,24 @@ $\=s:ProcessLine(0, submatch(0), "\\V\\^\\(\\s\\{-}\\); \\?\\(\\_.\\{-}\\)\\$", 
 	*******
 
 # File marks:
-'0  4  0  ~/.gitignore
-'1  4  8  ~/.gitignore
-'2  3  6  ~/.gitignore
-'3  4  8  ~/.gitignore
-'4  7  0  ~/.gitignore
-'5  8  10  ~/.gitignore
-'6  1  0  ~/.gist-vim
-'7  2  2  ~/.gitignore
-'8  10  7  ~/.xmonad/.gitignore
-'9  5  0  ~/.xmonad/.gitignore
+'0  4  20  ~/.gitignore
+'1  5  0  ~/.gitignore
+'2  5  8  ~/.gitignore
+'3  3  6  ~/.gitignore
+'4  5  8  ~/.gitignore
+'5  8  0  ~/.gitignore
+'6  9  10  ~/.gitignore
+'7  1  0  ~/.gist-vim
+'8  2  2  ~/.gitignore
+'9  10  7  ~/.xmonad/.gitignore
 
 # Jumplist (newest first):
--'  4  0  ~/.gitignore
+-'  4  20  ~/.gitignore
+-'  5  0  ~/.gitignore
 -'  1  0  ~/.gitignore
 -'  3  6  ~/.gitignore
--'  7  0  ~/.gitignore
--'  8  10  ~/.gitignore
+-'  8  0  ~/.gitignore
+-'  9  10  ~/.gitignore
 -'  1  0  ~/.gist-vim
 -'  2  2  ~/.gitignore
 -'  10  7  ~/.xmonad/.gitignore
@@ -238,27 +239,29 @@ $\=s:ProcessLine(0, submatch(0), "\\V\\^\\(\\s\\{-}\\); \\?\\(\\_.\\{-}\\)\\$", 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	4	0
-	.	4	0
+	"	4	20
+	^	4	21
+	.	4	20
 	+	1	0
 	+	2	2
-	+	7	8
-	+	8	10
-	+	7	0
+	+	8	8
+	+	9	10
+	+	8	0
 	+	3	5
-	+	4	8
+	+	5	8
 	+	3	13
-	+	4	9
+	+	5	9
 	+	3	6
-	+	4	0
-	+	4	0
-	+	4	8
-	+	4	0
-	+	4	10
-	+	4	0
-	+	3	7
 	+	5	0
-	+	4	0
+	+	5	0
+	+	5	8
+	+	5	0
+	+	5	10
+	+	5	0
+	+	3	7
+	+	6	0
+	+	5	0
+	+	4	20
 
 > ~/.gist-vim
 	"	1	0
