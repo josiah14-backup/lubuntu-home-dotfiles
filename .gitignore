@@ -1,7 +1,8 @@
 *
 !.*
 !.vim/**
-!.config/fontconfig/*
+!.config/fontconfig/fonts.conf
+.viminfo
 .vim/bundle/YouCompleteMe/
 .ivy2
 .java
