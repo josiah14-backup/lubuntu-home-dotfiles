@@ -1,5 +1,7 @@
 *
 !.*
+!.vim/**
+.vim/bundle/YouCompleteMe/
 .ivy2
 .java
 .xmonad
