@@ -18,8 +18,8 @@ $\=s:ProcessLine(0, submatch(0), "\\V\\^\\(\\s\\{-}\\); \\?\\(\\_.\\{-}\\)\\$", 
 
 # Command Line History (newest to oldest):
 :wq
-:q
 :w
+:q
 :wq!
 :w /etc/nsswitch.bak.conf
 :w nsswitch.bak.conf
@@ -98,35 +98,27 @@ $\=s:ProcessLine(0, submatch(0), "\\V\\^\\(\\s\\{-}\\); \\?\\(\\_.\\{-}\\)\\$", 
 
 # Registers:
 "0	LINE	0
-	!.vim/*
+	!.vim/*/*/*
 ""1	LINE	0
-	
+	!.config/**
 "2	LINE	0
-	!.config/*
+	.config
 "3	LINE	0
-	.vim
+	!.vim/*/*
+	!.vim/*/*/*
+	!.vim/*/*/*/*
 "4	LINE	0
-	>>>>>>> 93e3b883c061c1fd685e9ef588b979704ca95c78:contrib/!lang/ruby/packages.el
+	
 "5	LINE	0
-	>>>>>>> 93e3b883c061c1fd685e9ef588b979704ca95c78:contrib/!lang/ruby/packages.el
+	
 "6	LINE	0
-	<<<<<<< HEAD:contrib/lang/ruby/packages.el
+	!.config/*
 "7	LINE	0
-	=======
+	.vim
 "8	LINE	0
-	>>>>>>> Update old name of submodules in .gitmodules
+	>>>>>>> 93e3b883c061c1fd685e9ef588b979704ca95c78:contrib/!lang/ruby/packages.el
 "9	LINE	0
-	<<<<<<< HEAD
-	[submodule "spacemacs/extensions/projmake-mode"]
-		path = extensions/projmake-mode
-		url = https://github.com/ericbmerritt/projmake-mode
-	[submodule "spacemacs/extensions/revive"]
-		path = spacemacs/extensions/revive
-		url = https://github.com/vedang/revive-mode.git
-	[submodule "spacemacs/extensions/helm-c-moccur"]
-		path = extensions/helm-c-moccur
-		url = https://github.com/syl20bnr/helm-c-moccur
-	=======
+	>>>>>>> 93e3b883c061c1fd685e9ef588b979704ca95c78:contrib/!lang/ruby/packages.el
 "i	CHAR	0
 	w
 "j	CHAR	0
@@ -137,25 +129,23 @@ $\=s:ProcessLine(0, submatch(0), "\\V\\^\\(\\s\\{-}\\); \\?\\(\\_.\\{-}\\)\\$", 
 	*******
 
 # File marks:
-'0  4  25  ~/.gitignore
-'1  5  8  ~/.gitignore
+'0  4  0  ~/.gitignore
+'1  4  8  ~/.gitignore
 '2  3  6  ~/.gitignore
-'3  6  8  ~/.gitignore
-'4  9  0  ~/.gitignore
-'5  10  10  ~/.gitignore
+'3  4  8  ~/.gitignore
+'4  7  0  ~/.gitignore
+'5  8  10  ~/.gitignore
 '6  1  0  ~/.gist-vim
 '7  2  2  ~/.gitignore
 '8  10  7  ~/.xmonad/.gitignore
 '9  5  0  ~/.xmonad/.gitignore
 
 # Jumplist (newest first):
--'  4  25  ~/.gitignore
--'  5  4  ~/.gitignore
+-'  4  0  ~/.gitignore
 -'  1  0  ~/.gitignore
 -'  3  6  ~/.gitignore
--'  6  8  ~/.gitignore
--'  9  0  ~/.gitignore
--'  10  10  ~/.gitignore
+-'  7  0  ~/.gitignore
+-'  8  10  ~/.gitignore
 -'  1  0  ~/.gist-vim
 -'  2  2  ~/.gitignore
 -'  10  7  ~/.xmonad/.gitignore
@@ -244,29 +234,31 @@ $\=s:ProcessLine(0, submatch(0), "\\V\\^\\(\\s\\{-}\\); \\?\\(\\_.\\{-}\\)\\$", 
 -'  5  4  ~/.vim/bundle/ghcmod-vim/test/data/with whitespace/src/Foo/Bar.hs
 -'  1  0  ~/.vim/bundle/ghcmod-vim/test/data/with whitespace/src/Foo/Bar.hs
 -'  1  0  ~/.vim/bundle/ghcmod-vim/test/data/with-cabal/src/Foo/Bar.hs
--'  5  0  ~/.vim/bundle/ghcmod-vim/test/data/failure/SyntaxError.hs
--'  1  0  ~/.vim/bundle/ghcmod-vim/test/data/failure/SyntaxError.hs
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	4	25
-	^	4	26
-	.	4	25
+	"	4	0
+	.	4	0
 	+	1	0
 	+	2	2
-	+	9	8
-	+	10	10
-	+	9	0
+	+	7	8
+	+	8	10
+	+	7	0
 	+	3	5
-	+	6	8
+	+	4	8
 	+	3	13
-	+	6	9
+	+	4	9
 	+	3	6
-	+	6	0
-	+	6	0
-	+	5	8
-	+	4	25
+	+	4	0
+	+	4	0
+	+	4	8
+	+	4	0
+	+	4	10
+	+	4	0
+	+	3	7
+	+	5	0
+	+	4	0
 
 > ~/.gist-vim
 	"	1	0
